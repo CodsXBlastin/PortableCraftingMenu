@@ -1,0 +1,10 @@
+name: PortableCraftingTable
+version: 1.0.0
+main: THXC\Main
+api: [3.0.0, 4.0.0]
+author: THXC
+
+commands:
+ craft:
+  description: Opens Portable Crafting Table
+  usage: "/craft"
