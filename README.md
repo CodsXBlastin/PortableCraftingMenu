@@ -6,6 +6,8 @@ Useful in any Server looking to have a Portable Crafting Table Menu. Whether Tha
 2. Place the .phar file inside your Server's Directory for Plugins (Reffered to as /plugins/).         
 3. Reload/Restart your server. 
 4. Enjoy!                                                                                                                                                                                                                      
+## Usage
+After doing the Steps in "How to Install" all you need to do is type '/craft' and You're Ready to Go!
 
 ## Extra Stuff
 This plugin __**DOESN'T**__ support spoons/varients of PocketMine. Support for such are few and far between.
