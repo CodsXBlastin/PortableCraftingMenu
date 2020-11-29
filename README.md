@@ -1,4 +1,5 @@
-# PortableCraftingTable
+<h1>PortableCraftingMenu<img src="https://raw.githubusercontent.com/CodsXBlastin/PortableCraftingMenu/master/icon.png" height="64" width="64" align="left"></img>&nbsp;<img src="https://poggit.pmmp.io/ci.shield/CodsXBlastin/PortableCraftingMenu/~"></img></h1>
+
 Useful in any Server looking to have a Portable Crafting Table Menu. Whether That'd be Survival, Hcf etc.
 
 ## How To Install
