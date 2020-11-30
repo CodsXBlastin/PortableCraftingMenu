@@ -15,7 +15,7 @@ use pocketmine\Player;
 use pocketmine\block\Block;
 use function array_key_exists;
 
-class Main extin extends PluginBase{
+class Main extends PluginBase{
 
     public function sendCraftingTable(Player $player)
     {
