@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace THXC;
+namespace CodsXBlastin\PCM;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
