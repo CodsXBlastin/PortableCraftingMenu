@@ -17,11 +17,6 @@ use function array_key_exists;
 
 class Main extends PluginBase{
 
-    public function onEnable()
-    {
-        $this->getLogger()->info(C::GREEN . "Successfully Loaded PortableCraftingTable by THXC");
-    }
-
     public function sendCraftingTable(Player $player)
     {
         $block1 = Block::get(Block::CRAFTING_TABLE);
