@@ -1,6 +1,6 @@
 name: PortableCraftingTable
 version: 1.0.0
-main: THXC\Main
+main: CodsXBlastin\PCM\Main
 api: 3.0.0
 author: CodsXBlastin
 
