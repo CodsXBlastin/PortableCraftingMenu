@@ -32,21 +32,23 @@ class Main extends PluginBase{
         switch($command->getName())
         {
             case "craft":
-                if($sender instanceof Player)
-                {
-                  $this->sendCraftingTable($sender);
-                   $sender->setCraftingGrid(new CraftingGrid($sender, CraftingGrid::SIZE_BIG));
-                   if(!array_key_exists($windowId = Player::HARDCODED_CRAFTING_GRID_WINDOW_ID, $sender->openHardcodedWindows))
-                   {
-                   $pk = new ContainerOpenPacket();
-                   $pk->windowId = $windowId;
-                   $pk->type = WindowTypes::WORKBENCH;
-                   $pk->x = $sender->getFloorX();
-                   $pk->y = $sender->getFloorY() - 2;
-                   $pk->z = $sender->getFloorZ();
-                   $sender->sendDataPacket($pk);
-                   $sender->openHardcodedWindows[$windowId] = true;
-                   }
+                if($sender->hasPermission("pcm.command")){
+                    if($sender instanceof Player)
+                    {
+                    $this->sendCraftingTable($sender);
+                    $sender->setCraftingGrid(new CraftingGrid($sender, CraftingGrid::SIZE_BIG));
+                    if(!array_key_exists($windowId = Player::HARDCODED_CRAFTING_GRID_WINDOW_ID, $sender->openHardcodedWindows))
+                        {
+                    $pk = new ContainerOpenPacket();
+                    $pk->windowId = $windowId;
+                    $pk->type = WindowTypes::WORKBENCH;
+                    $pk->x = $sender->getFloorX();
+                    $pk->y = $sender->getFloorY() - 2;
+                    $pk->z = $sender->getFloorZ();
+                    $sender->sendDataPacket($pk);
+                    $sender->openHardcodedWindows[$windowId] = true;
+                        }
+                    }
                 }
                 return true;
             default:
