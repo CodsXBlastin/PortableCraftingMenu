@@ -10,3 +10,7 @@ commands:
  craft:
   description: Opens Portable Crafting Table
   usage: "/craft"
+
+permissions:
+ pcm.command:
+  default: true
