@@ -32,7 +32,7 @@ class Main extends PluginBase{
         switch($command->getName())
         {
             case "craft":
-                if($sender->hasPermission("pcm.command")){
+                if($sender->hasPermission("portablecraftingmenu.command")){
                     if($sender instanceof Player)
                     {
                     $this->sendCraftingTable($sender);
