@@ -12,5 +12,5 @@ commands:
   usage: "/craft"
 
 permissions:
- pcm.command:
+ portablecraftingmenu.command:
   default: true
