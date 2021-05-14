@@ -3,7 +3,7 @@ version: 20.6.9
 main: CodsXBlastin\PCM\Main
 api: 3.0.0
 author: CodsXBlastin
-mcpe-protocol: [407, 408, 419, 422]
+mcpe-protocol: [407, 408, 419, 422, 431]
 website: https://github.com/codsxblastin/PortableCraftingMenu
 
 commands:
@@ -13,4 +13,4 @@ commands:
 
 permissions:
  portablecraftingmenu.command:
-  default: true
+  default: op
